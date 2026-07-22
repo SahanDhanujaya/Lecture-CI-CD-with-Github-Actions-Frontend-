@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div style={{backgroundColor: "blueviolet"}}>
         <h1>Hello {data.title}</h1>
         <p>{data.id} - {data.completed}</p>
       </div>
